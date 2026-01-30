@@ -6,7 +6,7 @@ metadata:
 spec:
   destination:
     namespace: inline-inputs
-    name: minikube
+    name: in-cluster
   project: default
   source:
     chart: external-secrets
