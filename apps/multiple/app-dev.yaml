@@ -10,9 +10,9 @@ spec:
   project: default
   sources:
     # Chart from Chart Repo
-    - chart: external-secrets
-      repoURL: https://charts.external-secrets.io
-      targetRevision: 0.9.0
+    - path: helm-guestbook
+      repoURL: https://github.com/argoproj/argocd-example-apps/
+      targetRevision: master
       helm:
         # https://argo-cd.readthedocs.io/en/stable/user-guide/multiple_sources/#helm-value-files-from-external-git-repository
         valueFiles:
