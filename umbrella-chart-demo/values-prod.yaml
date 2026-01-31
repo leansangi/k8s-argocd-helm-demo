@@ -1,2 +1,2 @@
-kube-prometheus-stack:
+umbrella-demo:
   replicaCount: 2
