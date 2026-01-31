@@ -8,5 +8,4 @@ appVersion: "1.0"
 dependencies:
 - name: helm-guestbook
   version: master
-  repository: https://github.com/argoproj/argocd-example-apps/
-  path: helm-guestbook
+  repository: https://github.com/argoproj/argocd-example-apps/helm-guestbook
