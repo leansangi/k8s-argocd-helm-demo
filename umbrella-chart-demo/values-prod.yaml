@@ -1,2 +1,2 @@
-helm-guestbook:
-  replicaCount: 1
+kube-prometheus-stack:
+  replicaCount: 2
