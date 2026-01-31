@@ -6,6 +6,7 @@ version: 0.1.0
 appVersion: "1.0"
 
 dependencies:
-- name: external-secrets
-  version: 0.9.0
-  repository: https://charts.external-secrets.io
+- name: helm-guestbook
+  version: master
+  repository: https://github.com/argoproj/argocd-example-apps/
+  path: helm-guestbook

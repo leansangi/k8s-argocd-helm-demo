@@ -14,8 +14,7 @@ spec:
     targetRevision: master
     helm:
       values: |
-        podLabels:
-          eso: dev
+        replicaCount: 3
   syncPolicy:
     automated:
       prune: true
