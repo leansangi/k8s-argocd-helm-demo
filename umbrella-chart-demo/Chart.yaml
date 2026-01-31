@@ -1,5 +1,5 @@
 apiVersion: v2
-name: hello-world
+name: umbrella-demo
 description: An Umbrella Helm chart
 type: application
 version: 0.1.0
@@ -7,5 +7,5 @@ appVersion: "1.0"
 
 dependencies:
 - name: helm-guestbook
-  version: master
-  repository: https://github.com/argoproj/argocd-example-apps/helm-guestbook
+  version: HEAD
+  repository: https://github.com/argoproj/argocd-example-apps
