@@ -10,8 +10,8 @@ spec:
   project: default
   source:
     chart: helm-guestbook
-    repoURL: https://github.com/argoproj/argocd-example-apps/blob/master/helm-guestbook/
-    targetRevision: 0.9.0
+    repoURL: https://github.com/argoproj/argocd-example-apps/
+    targetRevision: HEAD
     helm:
       values: |
         podLabels:
