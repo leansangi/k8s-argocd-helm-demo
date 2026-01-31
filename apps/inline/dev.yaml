@@ -9,8 +9,8 @@ spec:
     name: in-cluster
   project: default
   source:
-    chart: external-secrets
-    repoURL: https://charts.external-secrets.io
+    chart: helm-guestbook
+    repoURL: https://github.com/argoproj/argocd-example-apps/blob/master/helm-guestbook/
     targetRevision: 0.9.0
     helm:
       values: |
