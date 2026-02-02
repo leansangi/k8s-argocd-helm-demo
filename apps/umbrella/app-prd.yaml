@@ -1,11 +1,11 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: umbrella-chart-demo-prd
+  name: umbrella
   namespace: argocd
 spec:
   destination:
-    namespace: umbrella-chart-demo
+    namespace: umbrella
     name: in-cluster
   project: default
   source:
